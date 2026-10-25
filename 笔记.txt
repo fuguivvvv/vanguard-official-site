@@ -1,0 +1,4 @@
+npx drizzle-kit push  
+刷新生成数据库
+
+Nuxt.js+ tailwind+SQLite
