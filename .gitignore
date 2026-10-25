@@ -2,7 +2,7 @@
 
 node_modules
 .env
-sqlite.db
+#sqlite.db
 .output
 .data
 .nuxt
