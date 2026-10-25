@@ -1,4 +1,40 @@
 npx drizzle-kit push  
 刷新生成数据库
 
-Nuxt.js+ tailwind+SQLite
+
+
+Nuxt.js+Tailwind CSS+Drizzle ORM+SQLite
+
+
+************************** 提交
+
+Bash
+# 1. 初始化 Git 仓库（如果之前没初始化过）
+git init
+
+# 2. 将所有代码文件添加到暂存区
+git add .
+
+# 3. 提交代码并附带能证明开发者的提交日志（Commit Message）
+git commit -m "Initial commit: Full-stack Nuxt 3 architecture & custom UI components for Vanguard"
+
+# 4. 切换主分支名称为 main
+git branch -M main
+
+# 5. 关联您刚在 GitHub 创建的远程仓库（请替换为您自己的真实 GitHub 仓库 URL）
+git remote add origin https://github.com/fuguvvvv/vanguard-official-site.git
+
+# 6. 推送代码到 GitHub
+git push -u origin main
+
+************************  修改后提交
+
+
+# 1. 追踪所有已修改和新创建的文件
+git add .
+
+# 2. 提交修改，并附上一句清晰的修改说明（ Commit Message ）
+git commit -m "feat: 进一步优化官网页面 UI 与民用测试服务模块"
+
+# 3. 推送最新代码到 GitHub
+git push
