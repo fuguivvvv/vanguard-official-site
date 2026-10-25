@@ -38,3 +38,93 @@ git commit -m "feat: 进一步优化官网页面 UI 与民用测试服务模块"
 
 # 3. 推送最新代码到 GitHub
 git push
+
+#服务器端
+git clone https://github.com/fuguivvvv/vanguard-official-site.git
+
+# 1. 进入刚刚克隆好的项目目录
+cd vanguard-official-site
+
+# 2. 检查远程分支与配置
+git remote -v
+
+# 3. 以后更新代码直接运行
+git pull
+
+
+以下是 PM2 的常用命令整理，按照日常开发和生产环境中的高频使用场景进行了分类：
+
+1. 启动与管理应用
+通过配置文件启动（推荐，适合生产环境）：
+
+Bash
+pm2 start ecosystem.config.js
+启动并指定应用名称：
+
+Bash
+pm2 start app.js --name "my-app"
+启动集群模式（利用多核 CPU 性能）：
+
+Bash
+pm2 start app.js -i max
+查看运行中的应用列表：
+
+Bash
+pm2 list
+# 或
+pm2 status
+查看应用详细信息：
+
+Bash
+pm2 show <app_name|id>
+2. 停止、重启与删除
+停止指定应用：
+
+Bash
+pm2 stop <app_name|id>
+重启指定应用：
+
+Bash
+pm2 restart <app_name|id>
+热重载（零停机重载，仅集群/合适架构支持）：
+
+Bash
+pm2 reload <app_name|id>
+删除指定应用（从 PM2 列表中移除）：
+
+Bash
+pm2 delete <app_name|id>
+停止/重启/删除所有应用：
+
+Bash
+pm2 stop all
+pm2 restart all
+pm2 delete all
+3. 日志管理
+实时查看所有应用的日志：
+
+Bash
+pm2 logs
+查看指定应用的日志：
+
+Bash
+pm2 logs <app_name|id>
+清空所有日志文件：
+
+Bash
+pm2 flush
+4. 监控与诊断
+实时监控 CPU / 内存占用（终端交互界面）：
+
+Bash
+pm2 monit
+5. 开机自启与状态保存
+保存当前运行的应用列表（用于恢复）：
+
+Bash
+pm2 save
+生成并配置开机自启动脚本：
+
+Bash
+pm2 startup
+(执行后终端通常会输出一行命令，复制并以 root 权限运行即可)
