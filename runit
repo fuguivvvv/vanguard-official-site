@@ -1,0 +1,1 @@
+PORT=3000 pm2 start .output/server/index.mjs --name "my-nuxt-app"
