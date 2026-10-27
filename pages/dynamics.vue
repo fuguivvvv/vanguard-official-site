@@ -22,6 +22,11 @@
         <h3 class="text-xl font-bold text-white mb-2">4. Vibration-Based Fault Diagnosis</h3>
         <p class="text-slate-400 text-sm">Precise identification of mass unbalance, structural misalignment, shaft bow, and mechanical looseness through spectrum peak analysis and harmonic evaluation.</p>
       </div>
+      <!-- Added 5th Item -->
+      <div class="bg-slate-950 border border-slate-800 p-6 rounded-2xl">
+        <h3 class="text-xl font-bold text-white mb-2">5. Vibration Isolation & Noise Reduction Design for Buildings and Precision Instruments</h3>
+        <p class="text-slate-400 text-sm">Professional vibration mitigation, seismic isolation, and noise reduction design solutions for residential buildings, industrial plants, and precision instruments.</p>
+      </div>
     </div>
   </div>
 </template>

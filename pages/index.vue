@@ -6,7 +6,7 @@
           Engineering Excellence for Commercial Products
         </h1>
         <p class="max-w-3xl mx-auto text-lg md:text-xl text-slate-300 mb-8">
-          Providing world-class technical consulting in environmental testing, reliability physics, and structural validation for industrial and commercial systems.
+          Providing world-class technical consulting in environmental testing, reliability physics, and structural validation for commercial and industrial systems.
         </p>
         <NuxtLink to="/contact" class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 text-white font-medium px-8 py-4 rounded-xl shadow-lg shadow-blue-600/30 transition">
           Schedule a Consultation
@@ -37,7 +37,7 @@
             <img src="/images/home-hero-bg.jpg" alt="Structural Dynamics" class="w-full h-full object-cover" />
           </div>
           <h3 class="text-xl font-bold text-white mb-3">Structural Dynamics & Fault Diagnosis</h3>
-          <p class="text-slate-400 text-sm mb-6">Advanced modal testing, finite element simulation, field vibration data acquisition, and vibration-based fault diagnosis for commercial machinery and structures.</p>
+          <p class="text-slate-400 text-sm mb-6">Vibration Isolation and Noise Reduction Analysis and Design, Advanced modal testing, finite element simulation, field vibration data acquisition, and vibration-based fault diagnosis.</p>
           <NuxtLink to="/dynamics" class="text-blue-400 hover:text-blue-300 text-sm font-semibold inline-flex items-center">
             Explore In-Depth Technical Details →
           </NuxtLink>
