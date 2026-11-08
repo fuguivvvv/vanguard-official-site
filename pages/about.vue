@@ -22,7 +22,7 @@
 <<<<<<< HEAD
           Founded and led by <strong>Guifu Gao</strong>, Vanguard brings over two decades of frontline engineering mastery in environmental testing, structural dynamics, and multi-physics simulation. As a seasoned Senior Engineer holding a Master's degree in the fields of Mechanical Engineering and Environmental and Reliability Test, Guifu has spearheaded complex laboratory constructions, directed enterprise-scale technical operations for over 260 professionals, and mastered complex ISO/IEC 17025 accreditations.
 =======
-          Founded and led by <strong>Jeff Gao</strong>, Vanguard brings over two decades of frontline engineering mastery in environmental testing, structural dynamics, and multi-physics simulation. As a seasoned Senior Engineer holding a Master's degree in the fields of Mechanical Engineering and Environmental and Reliability Test, Guifu has spearheaded complex laboratory constructions, directed enterprise-scale technical operations for over 260 professionals, and mastered complex ISO/IEC 17025 accreditations.
+          Founded and led by <strong>Jeff1 Gao</strong>, Vanguard brings over two decades of frontline engineering mastery in environmental testing, structural dynamics, and multi-physics simulation. As a seasoned Senior Engineer holding a Master's degree in the fields of Mechanical Engineering and Environmental and Reliability Test, Guifu has spearheaded complex laboratory constructions, directed enterprise-scale technical operations for over 260 professionals, and mastered complex ISO/IEC 17025 accreditations.
 >>>>>>> cb656d6 (20261108 update-About)
         </p>
         <p>
